@@ -25,6 +25,7 @@ onDeleteCharacter(id?:string): void {
 
   if(!id) return;
 this.onDelete.emit(id);
+console.log(id);
 }
 
 }
